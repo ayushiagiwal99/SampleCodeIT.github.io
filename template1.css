@@ -1,0 +1,130 @@
+body{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+#mainpart hr{
+	color: red;
+}
+.homeimg{
+	background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url("bg-masthead.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	}
+.navbar a:hover{
+	color:white;
+}
+.bg-dark{
+	margin: 0 0;
+	min-width: 100%;
+}
+.navbar-brand, .nav-link{
+	color:rgba(255, 255, 255, 0.7);
+	font-weight: bolder;
+}
+.heading{
+	color: white;
+	font-weight: bolder;
+	font-size: 3rem;
+
+}
+#mainpart .btn{
+	background-color: #f4623a;
+	padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 10rem;
+}
+#mainpart .btn:hover{
+	background-color:#f24516;
+	border: none;
+}
+#mainpart .text{
+	color: #ffffffbf;
+	font-size: 1rem;
+}
+#mainpart .btn{
+	background-color: #f4623a;
+	padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 10rem;
+}
+#mainpart.btn a:hover{
+	background-color: #f6623a;
+	color: white;
+}
+hr{
+	border:1.5px solid;
+	width:8.5%;
+  	margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+#about .btn{
+	background-color: white;
+	padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    color: black;
+    border-radius: 10rem;
+}
+#about{
+	padding:8rem 0;
+	background-color: #f4623a;
+	color: white;
+}
+
+#about hr{
+	color: white;
+}
+#about .btn:hover{
+	background-color: rgb(255,255,255,0.5)
+}
+#services, #about, #portfolio, #contact{
+	padding:8rem 0;
+}
+#services hr{
+	color:red;
+}
+.col-lg-4, .col-sm-6{
+	padding-left: 0;
+	padding-right: 0;
+}
+h2{
+	font-size: 2rem;
+}
+#portfolio .btn{
+	padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10rem;
+    background-color: white;
+    color: black;
+ }
+#portfolio .text-center{
+	padding:128px 0;
+}
+#portfolio .btn:hover{
+	background-color:#f8f9fa;
+}
+#contact hr{
+	color:red;
+}
+.text-muted{
+	margin-bottom:48px;
+}
+.mail{
+	color: #f4623a;
+}
+.mail:hover{
+	color: #f4623a;
+	text-decoration: underline;
+}
+.img-fluid{
+	z-index:1;
+}
